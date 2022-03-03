@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F0DDF8E27D070F400B32C39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0DDF8D27D070F400B32C39 /* AppDelegate.swift */; };
+		3F0DDF9027D070F400B32C39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0DDF8F27D070F400B32C39 /* SceneDelegate.swift */; };
+		3F0DDF9227D070F400B32C39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0DDF9127D070F400B32C39 /* ViewController.swift */; };
+		3F0DDF9527D070F400B32C39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0DDF9327D070F400B32C39 /* Main.storyboard */; };
+		3F0DDF9727D070F400B32C39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0DDF9627D070F400B32C39 /* Assets.xcassets */; };
+		3F0DDF9A27D070F400B32C39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0DDF9827D070F400B32C39 /* LaunchScreen.storyboard */; };
+		3F0DDFA527D070F400B32C39 /* Vobilishetty_SearchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0DDFA427D070F400B32C39 /* Vobilishetty_SearchAppTests.swift */; };
+		3F0DDFAF27D070F400B32C39 /* Vobilishetty_SearchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0DDFAE27D070F400B32C39 /* Vobilishetty_SearchAppUITests.swift */; };
+		3F0DDFB127D070F400B32C39 /* Vobilishetty_SearchAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0DDFB027D070F400B32C39 /* Vobilishetty_SearchAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F0DDFA127D070F400B32C39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0DDF8227D070F400B32C39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0DDF8927D070F400B32C39;
+			remoteInfo = Vobilishetty_SearchApp;
+		};
+		3F0DDFAB27D070F400B32C39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0DDF8227D070F400B32C39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0DDF8927D070F400B32C39;
+			remoteInfo = Vobilishetty_SearchApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F0DDF8A27D070F400B32C39 /* Vobilishetty_SearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vobilishetty_SearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0DDF8D27D070F400B32C39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F0DDF8F27D070F400B32C39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F0DDF9127D070F400B32C39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F0DDF9427D070F400B32C39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F0DDF9627D070F400B32C39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F0DDF9927D070F400B32C39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F0DDF9B27D070F400B32C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0DDFA027D070F400B32C39 /* Vobilishetty_SearchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Vobilishetty_SearchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0DDFA427D070F400B32C39 /* Vobilishetty_SearchAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vobilishetty_SearchAppTests.swift; sourceTree = "<group>"; };
+		3F0DDFAA27D070F400B32C39 /* Vobilishetty_SearchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Vobilishetty_SearchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0DDFAE27D070F400B32C39 /* Vobilishetty_SearchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vobilishetty_SearchAppUITests.swift; sourceTree = "<group>"; };
+		3F0DDFB027D070F400B32C39 /* Vobilishetty_SearchAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vobilishetty_SearchAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F0DDF8727D070F400B32C39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0DDF9D27D070F400B32C39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0DDFA727D070F400B32C39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F0DDF8127D070F400B32C39 = {
+			isa = PBXGroup;
+			children = (
+				3F0DDF8C27D070F400B32C39 /* Vobilishetty_SearchApp */,
+				3F0DDFA327D070F400B32C39 /* Vobilishetty_SearchAppTests */,
+				3F0DDFAD27D070F400B32C39 /* Vobilishetty_SearchAppUITests */,
+				3F0DDF8B27D070F400B32C39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F0DDF8B27D070F400B32C39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F0DDF8A27D070F400B32C39 /* Vobilishetty_SearchApp.app */,
+				3F0DDFA027D070F400B32C39 /* Vobilishetty_SearchAppTests.xctest */,
+				3F0DDFAA27D070F400B32C39 /* Vobilishetty_SearchAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F0DDF8C27D070F400B32C39 /* Vobilishetty_SearchApp */ = {
+			isa = PBXGroup;
+			children = (
+				3F0DDF8D27D070F400B32C39 /* AppDelegate.swift */,
+				3F0DDF8F27D070F400B32C39 /* SceneDelegate.swift */,
+				3F0DDF9127D070F400B32C39 /* ViewController.swift */,
+				3F0DDF9327D070F400B32C39 /* Main.storyboard */,
+				3F0DDF9627D070F400B32C39 /* Assets.xcassets */,
+				3F0DDF9827D070F400B32C39 /* LaunchScreen.storyboard */,
+				3F0DDF9B27D070F400B32C39 /* Info.plist */,
+			);
+			path = Vobilishetty_SearchApp;
+			sourceTree = "<group>";
+		};
+		3F0DDFA327D070F400B32C39 /* Vobilishetty_SearchAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F0DDFA427D070F400B32C39 /* Vobilishetty_SearchAppTests.swift */,
+			);
+			path = Vobilishetty_SearchAppTests;
+			sourceTree = "<group>";
+		};
+		3F0DDFAD27D070F400B32C39 /* Vobilishetty_SearchAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F0DDFAE27D070F400B32C39 /* Vobilishetty_SearchAppUITests.swift */,
+				3F0DDFB027D070F400B32C39 /* Vobilishetty_SearchAppUITestsLaunchTests.swift */,
+			);
+			path = Vobilishetty_SearchAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F0DDF8927D070F400B32C39 /* Vobilishetty_SearchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0DDFB427D070F400B32C39 /* Build configuration list for PBXNativeTarget "Vobilishetty_SearchApp" */;
+			buildPhases = (
+				3F0DDF8627D070F400B32C39 /* Sources */,
+				3F0DDF8727D070F400B32C39 /* Frameworks */,
+				3F0DDF8827D070F400B32C39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vobilishetty_SearchApp;
+			productName = Vobilishetty_SearchApp;
+			productReference = 3F0DDF8A27D070F400B32C39 /* Vobilishetty_SearchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F0DDF9F27D070F400B32C39 /* Vobilishetty_SearchAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0DDFB727D070F400B32C39 /* Build configuration list for PBXNativeTarget "Vobilishetty_SearchAppTests" */;
+			buildPhases = (
+				3F0DDF9C27D070F400B32C39 /* Sources */,
+				3F0DDF9D27D070F400B32C39 /* Frameworks */,
+				3F0DDF9E27D070F400B32C39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0DDFA227D070F400B32C39 /* PBXTargetDependency */,
+			);
+			name = Vobilishetty_SearchAppTests;
+			productName = Vobilishetty_SearchAppTests;
+			productReference = 3F0DDFA027D070F400B32C39 /* Vobilishetty_SearchAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F0DDFA927D070F400B32C39 /* Vobilishetty_SearchAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0DDFBA27D070F400B32C39 /* Build configuration list for PBXNativeTarget "Vobilishetty_SearchAppUITests" */;
+			buildPhases = (
+				3F0DDFA627D070F400B32C39 /* Sources */,
+				3F0DDFA727D070F400B32C39 /* Frameworks */,
+				3F0DDFA827D070F400B32C39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0DDFAC27D070F400B32C39 /* PBXTargetDependency */,
+			);
+			name = Vobilishetty_SearchAppUITests;
+			productName = Vobilishetty_SearchAppUITests;
+			productReference = 3F0DDFAA27D070F400B32C39 /* Vobilishetty_SearchAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F0DDF8227D070F400B32C39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3F0DDF8927D070F400B32C39 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3F0DDF9F27D070F400B32C39 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3F0DDF8927D070F400B32C39;
+					};
+					3F0DDFA927D070F400B32C39 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3F0DDF8927D070F400B32C39;
+					};
+				};
+			};
+			buildConfigurationList = 3F0DDF8527D070F400B32C39 /* Build configuration list for PBXProject "Vobilishetty_SearchApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F0DDF8127D070F400B32C39;
+			productRefGroup = 3F0DDF8B27D070F400B32C39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F0DDF8927D070F400B32C39 /* Vobilishetty_SearchApp */,
+				3F0DDF9F27D070F400B32C39 /* Vobilishetty_SearchAppTests */,
+				3F0DDFA927D070F400B32C39 /* Vobilishetty_SearchAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F0DDF8827D070F400B32C39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0DDF9A27D070F400B32C39 /* LaunchScreen.storyboard in Resources */,
+				3F0DDF9727D070F400B32C39 /* Assets.xcassets in Resources */,
+				3F0DDF9527D070F400B32C39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0DDF9E27D070F400B32C39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0DDFA827D070F400B32C39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F0DDF8627D070F400B32C39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0DDF9227D070F400B32C39 /* ViewController.swift in Sources */,
+				3F0DDF8E27D070F400B32C39 /* AppDelegate.swift in Sources */,
+				3F0DDF9027D070F400B32C39 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0DDF9C27D070F400B32C39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0DDFA527D070F400B32C39 /* Vobilishetty_SearchAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0DDFA627D070F400B32C39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0DDFB127D070F400B32C39 /* Vobilishetty_SearchAppUITestsLaunchTests.swift in Sources */,
+				3F0DDFAF27D070F400B32C39 /* Vobilishetty_SearchAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F0DDFA227D070F400B32C39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0DDF8927D070F400B32C39 /* Vobilishetty_SearchApp */;
+			targetProxy = 3F0DDFA127D070F400B32C39 /* PBXContainerItemProxy */;
+		};
+		3F0DDFAC27D070F400B32C39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0DDF8927D070F400B32C39 /* Vobilishetty_SearchApp */;
+			targetProxy = 3F0DDFAB27D070F400B32C39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F0DDF9327D070F400B32C39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0DDF9427D070F400B32C39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F0DDF9827D070F400B32C39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0DDF9927D070F400B32C39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F0DDFB227D070F400B32C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F0DDFB327D070F400B32C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F0DDFB527D070F400B32C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vobilishetty_SearchApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Vobilishetty_SearchApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Vobilishetty-SearchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F0DDFB627D070F400B32C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vobilishetty_SearchApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Vobilishetty_SearchApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Vobilishetty-SearchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F0DDFB827D070F400B32C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Vobilishetty-SearchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vobilishetty_SearchApp.app/Vobilishetty_SearchApp";
+			};
+			name = Debug;
+		};
+		3F0DDFB927D070F400B32C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Vobilishetty-SearchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vobilishetty_SearchApp.app/Vobilishetty_SearchApp";
+			};
+			name = Release;
+		};
+		3F0DDFBB27D070F400B32C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Vobilishetty-SearchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vobilishetty_SearchApp;
+			};
+			name = Debug;
+		};
+		3F0DDFBC27D070F400B32C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Vobilishetty-SearchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vobilishetty_SearchApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F0DDF8527D070F400B32C39 /* Build configuration list for PBXProject "Vobilishetty_SearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0DDFB227D070F400B32C39 /* Debug */,
+				3F0DDFB327D070F400B32C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0DDFB427D070F400B32C39 /* Build configuration list for PBXNativeTarget "Vobilishetty_SearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0DDFB527D070F400B32C39 /* Debug */,
+				3F0DDFB627D070F400B32C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0DDFB727D070F400B32C39 /* Build configuration list for PBXNativeTarget "Vobilishetty_SearchAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0DDFB827D070F400B32C39 /* Debug */,
+				3F0DDFB927D070F400B32C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0DDFBA27D070F400B32C39 /* Build configuration list for PBXNativeTarget "Vobilishetty_SearchAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0DDFBB27D070F400B32C39 /* Debug */,
+				3F0DDFBC27D070F400B32C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F0DDF8227D070F400B32C39 /* Project object */;
+}
