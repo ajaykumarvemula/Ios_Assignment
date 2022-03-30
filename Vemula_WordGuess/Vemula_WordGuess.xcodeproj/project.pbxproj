@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17754A1F27F50E980017097F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17754A1E27F50E980017097F /* AppDelegate.swift */; };
+		17754A2127F50E980017097F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17754A2027F50E980017097F /* SceneDelegate.swift */; };
+		17754A2327F50E980017097F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17754A2227F50E980017097F /* ViewController.swift */; };
+		17754A2627F50E980017097F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17754A2427F50E980017097F /* Main.storyboard */; };
+		17754A2827F50E9A0017097F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17754A2727F50E9A0017097F /* Assets.xcassets */; };
+		17754A2B27F50E9A0017097F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17754A2927F50E9A0017097F /* LaunchScreen.storyboard */; };
+		17754A3627F50E9A0017097F /* Vemula_WordGuessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17754A3527F50E9A0017097F /* Vemula_WordGuessTests.swift */; };
+		17754A4027F50E9A0017097F /* Vemula_WordGuessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17754A3F27F50E9A0017097F /* Vemula_WordGuessUITests.swift */; };
+		17754A4227F50E9A0017097F /* Vemula_WordGuessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17754A4127F50E9A0017097F /* Vemula_WordGuessUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17754A3227F50E9A0017097F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17754A1327F50E980017097F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17754A1A27F50E980017097F;
+			remoteInfo = Vemula_WordGuess;
+		};
+		17754A3C27F50E9A0017097F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17754A1327F50E980017097F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17754A1A27F50E980017097F;
+			remoteInfo = Vemula_WordGuess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17754A1B27F50E980017097F /* Vemula_WordGuess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vemula_WordGuess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17754A1E27F50E980017097F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17754A2027F50E980017097F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		17754A2227F50E980017097F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17754A2527F50E980017097F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17754A2727F50E9A0017097F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17754A2A27F50E9A0017097F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17754A2C27F50E9A0017097F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17754A3127F50E9A0017097F /* Vemula_WordGuessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Vemula_WordGuessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17754A3527F50E9A0017097F /* Vemula_WordGuessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vemula_WordGuessTests.swift; sourceTree = "<group>"; };
+		17754A3B27F50E9A0017097F /* Vemula_WordGuessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Vemula_WordGuessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17754A3F27F50E9A0017097F /* Vemula_WordGuessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vemula_WordGuessUITests.swift; sourceTree = "<group>"; };
+		17754A4127F50E9A0017097F /* Vemula_WordGuessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vemula_WordGuessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17754A1827F50E980017097F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17754A2E27F50E9A0017097F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17754A3827F50E9A0017097F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17754A1227F50E980017097F = {
+			isa = PBXGroup;
+			children = (
+				17754A1D27F50E980017097F /* Vemula_WordGuess */,
+				17754A3427F50E9A0017097F /* Vemula_WordGuessTests */,
+				17754A3E27F50E9A0017097F /* Vemula_WordGuessUITests */,
+				17754A1C27F50E980017097F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17754A1C27F50E980017097F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17754A1B27F50E980017097F /* Vemula_WordGuess.app */,
+				17754A3127F50E9A0017097F /* Vemula_WordGuessTests.xctest */,
+				17754A3B27F50E9A0017097F /* Vemula_WordGuessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17754A1D27F50E980017097F /* Vemula_WordGuess */ = {
+			isa = PBXGroup;
+			children = (
+				17754A1E27F50E980017097F /* AppDelegate.swift */,
+				17754A2027F50E980017097F /* SceneDelegate.swift */,
+				17754A2227F50E980017097F /* ViewController.swift */,
+				17754A2427F50E980017097F /* Main.storyboard */,
+				17754A2727F50E9A0017097F /* Assets.xcassets */,
+				17754A2927F50E9A0017097F /* LaunchScreen.storyboard */,
+				17754A2C27F50E9A0017097F /* Info.plist */,
+			);
+			path = Vemula_WordGuess;
+			sourceTree = "<group>";
+		};
+		17754A3427F50E9A0017097F /* Vemula_WordGuessTests */ = {
+			isa = PBXGroup;
+			children = (
+				17754A3527F50E9A0017097F /* Vemula_WordGuessTests.swift */,
+			);
+			path = Vemula_WordGuessTests;
+			sourceTree = "<group>";
+		};
+		17754A3E27F50E9A0017097F /* Vemula_WordGuessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17754A3F27F50E9A0017097F /* Vemula_WordGuessUITests.swift */,
+				17754A4127F50E9A0017097F /* Vemula_WordGuessUITestsLaunchTests.swift */,
+			);
+			path = Vemula_WordGuessUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17754A1A27F50E980017097F /* Vemula_WordGuess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17754A4527F50E9A0017097F /* Build configuration list for PBXNativeTarget "Vemula_WordGuess" */;
+			buildPhases = (
+				17754A1727F50E980017097F /* Sources */,
+				17754A1827F50E980017097F /* Frameworks */,
+				17754A1927F50E980017097F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vemula_WordGuess;
+			productName = Vemula_WordGuess;
+			productReference = 17754A1B27F50E980017097F /* Vemula_WordGuess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17754A3027F50E9A0017097F /* Vemula_WordGuessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17754A4827F50E9A0017097F /* Build configuration list for PBXNativeTarget "Vemula_WordGuessTests" */;
+			buildPhases = (
+				17754A2D27F50E9A0017097F /* Sources */,
+				17754A2E27F50E9A0017097F /* Frameworks */,
+				17754A2F27F50E9A0017097F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17754A3327F50E9A0017097F /* PBXTargetDependency */,
+			);
+			name = Vemula_WordGuessTests;
+			productName = Vemula_WordGuessTests;
+			productReference = 17754A3127F50E9A0017097F /* Vemula_WordGuessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17754A3A27F50E9A0017097F /* Vemula_WordGuessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17754A4B27F50E9A0017097F /* Build configuration list for PBXNativeTarget "Vemula_WordGuessUITests" */;
+			buildPhases = (
+				17754A3727F50E9A0017097F /* Sources */,
+				17754A3827F50E9A0017097F /* Frameworks */,
+				17754A3927F50E9A0017097F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17754A3D27F50E9A0017097F /* PBXTargetDependency */,
+			);
+			name = Vemula_WordGuessUITests;
+			productName = Vemula_WordGuessUITests;
+			productReference = 17754A3B27F50E9A0017097F /* Vemula_WordGuessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17754A1327F50E980017097F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					17754A1A27F50E980017097F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					17754A3027F50E9A0017097F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 17754A1A27F50E980017097F;
+					};
+					17754A3A27F50E9A0017097F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 17754A1A27F50E980017097F;
+					};
+				};
+			};
+			buildConfigurationList = 17754A1627F50E980017097F /* Build configuration list for PBXProject "Vemula_WordGuess" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17754A1227F50E980017097F;
+			productRefGroup = 17754A1C27F50E980017097F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17754A1A27F50E980017097F /* Vemula_WordGuess */,
+				17754A3027F50E9A0017097F /* Vemula_WordGuessTests */,
+				17754A3A27F50E9A0017097F /* Vemula_WordGuessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17754A1927F50E980017097F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17754A2B27F50E9A0017097F /* LaunchScreen.storyboard in Resources */,
+				17754A2827F50E9A0017097F /* Assets.xcassets in Resources */,
+				17754A2627F50E980017097F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17754A2F27F50E9A0017097F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17754A3927F50E9A0017097F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17754A1727F50E980017097F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17754A2327F50E980017097F /* ViewController.swift in Sources */,
+				17754A1F27F50E980017097F /* AppDelegate.swift in Sources */,
+				17754A2127F50E980017097F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17754A2D27F50E9A0017097F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17754A3627F50E9A0017097F /* Vemula_WordGuessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17754A3727F50E9A0017097F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17754A4227F50E9A0017097F /* Vemula_WordGuessUITestsLaunchTests.swift in Sources */,
+				17754A4027F50E9A0017097F /* Vemula_WordGuessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17754A3327F50E9A0017097F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17754A1A27F50E980017097F /* Vemula_WordGuess */;
+			targetProxy = 17754A3227F50E9A0017097F /* PBXContainerItemProxy */;
+		};
+		17754A3D27F50E9A0017097F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17754A1A27F50E980017097F /* Vemula_WordGuess */;
+			targetProxy = 17754A3C27F50E9A0017097F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17754A2427F50E980017097F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17754A2527F50E980017097F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17754A2927F50E9A0017097F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17754A2A27F50E9A0017097F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17754A4327F50E9A0017097F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17754A4427F50E9A0017097F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17754A4627F50E9A0017097F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vemula_WordGuess/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Vemula_WordGuess;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Vemula-WordGuess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17754A4727F50E9A0017097F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vemula_WordGuess/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Vemula_WordGuess;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Vemula-WordGuess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17754A4927F50E9A0017097F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Vemula-WordGuessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vemula_WordGuess.app/Vemula_WordGuess";
+			};
+			name = Debug;
+		};
+		17754A4A27F50E9A0017097F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Vemula-WordGuessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vemula_WordGuess.app/Vemula_WordGuess";
+			};
+			name = Release;
+		};
+		17754A4C27F50E9A0017097F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Vemula-WordGuessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vemula_WordGuess;
+			};
+			name = Debug;
+		};
+		17754A4D27F50E9A0017097F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Vemula-WordGuessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vemula_WordGuess;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17754A1627F50E980017097F /* Build configuration list for PBXProject "Vemula_WordGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17754A4327F50E9A0017097F /* Debug */,
+				17754A4427F50E9A0017097F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17754A4527F50E9A0017097F /* Build configuration list for PBXNativeTarget "Vemula_WordGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17754A4627F50E9A0017097F /* Debug */,
+				17754A4727F50E9A0017097F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17754A4827F50E9A0017097F /* Build configuration list for PBXNativeTarget "Vemula_WordGuessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17754A4927F50E9A0017097F /* Debug */,
+				17754A4A27F50E9A0017097F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17754A4B27F50E9A0017097F /* Build configuration list for PBXNativeTarget "Vemula_WordGuessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17754A4C27F50E9A0017097F /* Debug */,
+				17754A4D27F50E9A0017097F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17754A1327F50E980017097F /* Project object */;
+}
